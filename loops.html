@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var i= 6;
+        for (var i= 0;
+        i < 100; i++ )
+        // {"i += the result is" + i + <br> ;}
+        console.log (i)
+    
+        let b = 5;
+        for (let b= 0;
+        b < 150; b++ )
+        console.log (b)
+
+        let num1= +"12" +12;
+        let num2= +"14" +14
+        if (num1===num2){console.log("they are equal")}
+        else{console.log('they are not equal')}
+
+        const Names=["kuol","Daud","Rinato","John","Teacher"];
+        let text=" ";
+        let x=0;
+        for (const x of Names);
+        {text += x + 'Break';}
+        console.log(Names)
+
+        const student=["kuol","Daud","Rinato","John"];
+        const Teacher=["Omar","Mahdi","Gatbel","Adam","Osman"];
+        const All= Teacher.concat(student);
+        let text5=" ";
+        for (const y of All);
+        {text5 += y + "break";
+        }
+        console.log(All)
+    
+
+        const food = new Map ([
+            ["fish" , 1000],
+            ["chicken" , 1500],
+            ["ugali" , 200],
+            ["Beef" , 300],
+        ])
+            let text = "";
+            for (const B of food ) {
+                text += B + 'break';
+            }
+            console.log(food)
+
+            const letter = new Set();
+            letter.add("A");
+            letter.add("B");
+            letter.add("C");
+            letter.add("D");
+            console.log(letter.size)
+            
+
+            document.getElementById(B).innerHTMl=teaxt;
+    
+    
+
+        </script>
+    
+</body>
+</html>
