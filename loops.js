@@ -109,3 +109,12 @@ for (let i = 0;
   text += "The number is " + i + "<br>";
 }
   console.log(text)
+
+
+  // Arrow Exprecssion
+
+  let number=(num)=> {
+    return num * num ()
+  }
+  console.log(number(7))
+  
